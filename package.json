@@ -1,0 +1,19 @@
+{
+  "name": "blackify",
+  "version": "0.0.1",
+  "description": "compress files into archives and insert the archives to qr code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realKfiros/blackify.git"
+  },
+  "author": "realKfiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realKfiros/blackify/issues"
+  },
+  "homepage": "https://github.com/realKfiros/blackify#readme"
+}
