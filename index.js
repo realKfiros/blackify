@@ -1,10 +1,10 @@
 #!/usr/bin/node
 
-import fs from 'fs';
-import path from 'path';
-import inquirer from 'inquirer';
-import QRCode from 'qrcode';
-import glob from 'glob';
+const fs = require('fs');
+const path = require('path');
+const inquirer = require('inquirer');
+const QRCode = require('qrcode');
+const glob = require('glob');
 
 const getFiles = (src, callback) => {
     glob(src + '/**/*.*', callback);
