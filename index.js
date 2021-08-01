@@ -1,14 +1,16 @@
+#!/usr/bin/node
+
 import fs from 'fs';
 import path from 'path';
 import inquirer from 'inquirer';
 import QRCode from 'qrcode';
 import glob from 'glob';
 
-const getFiles = (src, callback): void => {
+const getFiles = (src, callback) => {
     glob(src + '/**/*.*', callback);
 }
 
-(async (): Promise<void> => {
+(async () => {
     const answers = await inquirer.prompt([
         {
             name: 'path',
