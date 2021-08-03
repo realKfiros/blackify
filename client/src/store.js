@@ -21,7 +21,7 @@ export class Store
 	{
 		let _ = this;
 		$.ajax({
-			url: 'http://localhost:3001/decompress',
+			url: 'https://blackify.herokuapp.com/decompress',
 			type: 'POST',
 			dataType: 'application/json',
 			data: {parts: this.parts},
